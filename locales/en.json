@@ -1,0 +1,164 @@
+{
+  "common": {
+    "all": "All",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "approve": "Approve",
+    "reject": "Reject",
+    "suspend": "Suspend",
+    "reactivate": "Reactivate",
+    "viewProfile": "View Profile",
+    "download": "Download",
+    "back": "Back"
+  },
+  "roles": {
+    "student": "Student",
+    "company": "Company",
+    "admin": "Admin"
+  },
+  "pronouns": {
+    "your": "your"
+  },
+  "time": {
+    "now": "now",
+    "ago": "ago",
+    "m": "m",
+    "h": "h",
+    "d": "d"
+  },
+  "sidebar": {
+    "logo": "AI Engine",
+    "footer": "© 2024 PM Internship Scheme"
+  },
+  "nav": {
+    "student": {
+      "profile": "Profile",
+      "opportunities": "Opportunities",
+      "myApplications": "My Applications",
+      "notifications": "Notifications",
+      "analytics": "Analytics"
+    },
+    "company": {
+      "profile": "Company Profile",
+      "manageInternships": "Manage Internships",
+      "applicationsManagement": "Applications Management",
+      "analytics": "Analytics"
+    },
+    "admin": {
+      "dashboard": "Dashboard",
+      "studentManagement": "Student Management",
+      "companyManagement": "Company Management",
+      "internshipOversight": "Internship Oversight",
+      "applicationMonitoring": "Application Monitoring",
+      "allocationEngine": "Allocation Engine",
+      "announcements": "Announcements",
+      "settings": "Settings"
+    }
+  },
+  "header": {
+    "notifications": "Notifications",
+    "markAllAsRead": "Mark all as read",
+    "noNotifications": "No new notifications.",
+    "viewAllNotifications": "View all notifications",
+    "logout": "Logout"
+  },
+  "landing": {
+    "title": "SmartAllocate",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "features": "Features",
+      "contact": "Contact",
+      "loginRegister": "Login / Register"
+    },
+    "hero": {
+      "titlePart1": "Smart",
+      "titlePart2": "AI-Powered",
+      "titlePart3": "Internship Matching",
+      "subtitle": "Connecting ambitious students with innovative companies through our intelligent allocation engine.",
+      "forStudents": "For Students",
+      "forCompanies": "For Companies",
+      "adminLogin": "Admin Login"
+    },
+    "about": {
+      "title": "About the Scheme",
+      "description": "The PM Internship Scheme is a national initiative designed to bridge the gap between academia and industry. Our AI-Based Smart Allocation Engine ensures a fair, transparent, and efficient process for matching talented students with meaningful internship opportunities across various sectors, fostering skill development and contributing to national growth.",
+      "imageAlt": "Team collaborating"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1Title": "Student Registers",
+      "step1Desc": "Students create a profile, upload their resume, and specify their internship preferences.",
+      "step2Title": "Company Posts",
+      "step2Desc": "Companies post internship opportunities with detailed skill requirements and role descriptions.",
+      "step3Title": "AI Allocates",
+      "step3Desc": "Our AI engine analyzes all data to create the best matches based on skills, preferences, and fairness metrics."
+    },
+    "features": {
+      "title": "Our Features",
+      "f1Name": "AI Matching",
+      "f1Desc": "Advanced algorithms for optimal student-internship pairing.",
+      "f2Name": "Fairness Engine",
+      "f2Desc": "Ensures equitable opportunity distribution across demographics.",
+      "f3Name": "Real-time Notifications",
+      "f3Desc": "Instant updates on applications and opportunities.",
+      "f4Name": "Analytics Dashboard",
+      "f4Desc": "Data-driven insights for all stakeholders.",
+      "f5Name": "Diversity Tracking",
+      "f5Desc": "Monitors and promotes diversity in all allocations.",
+      "f6Name": "Seamless Experience",
+      "f6Desc": "Intuitive dashboards for students, companies, and admins."
+    },
+    "footer": {
+      "title": "AI Smart Allocation Engine",
+      "supportText": "For support, email us at",
+      "copyright": "PM Internship Scheme. All Rights Reserved."
+    }
+  },
+  "login": {
+    "visual": {
+      "title": "Unlock Your Potential.",
+      "subtitle": "Our AI-powered platform connects you with the perfect internship to launch your career."
+    },
+    "welcomeBack": "Welcome Back, {{title}}",
+    "createYourAccount": "Create {{pronoun}} {{title}} Account",
+    "adminSubtitle": "Secure login for administrators.",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "signIn": "Sign In",
+    "captchaAlert": "Please complete the CAPTCHA verification.",
+    "fullNameLabel": "Full Name",
+    "companyNameLabel": "Company Name",
+    "createPasswordPlaceholder": "Create a password",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "createAccount": "Create Account",
+    "registerAlert": "Registration successful! Please check your email for verification. You will be redirected to complete your profile.",
+    "strength": {
+      "weak": "Weak",
+      "medium": "Medium",
+      "strong": "Strong",
+      "veryStrong": "Very Strong"
+    },
+    "2fa": {
+      "title": "Two-Factor Authentication",
+      "codeLabel": "Verification Code",
+      "codePlaceholder": "Enter 6-digit code",
+      "prompt": "Enter the code from your authenticator app.",
+      "verify": "Verify",
+      "tryAgainIn": "Try again in {{timer}}s",
+      "backToLogin": "Back to login",
+      "lockoutError": "Too many failed attempts. Please wait {{duration}} seconds.",
+      "invalidCodeError": "Invalid code. You have {{attemptsLeft}} attempt left."
+    },
+    "continueWith": "Or continue with",
+    "noAccount": "Don't have an account?",
+    "register": "Register",
+    "hasAccount": "Already have an account?",
+    "adminDisclaimer": "Admin access is restricted and all activity is monitored."
+  }
+}

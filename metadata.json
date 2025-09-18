@@ -1,0 +1,5 @@
+{
+  "name": "AI Smart Allocation Engine",
+  "description": "An AI-powered platform to intelligently match students with internships for the PM Internship Scheme, featuring dedicated dashboards for students, companies, and administrators.",
+  "requestFramePermissions": []
+}

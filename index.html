@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Smart Allocation Engine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root, .theme-student, .theme-company, .theme-admin {
+        --color-primary-50: 244 248 247;
+        --color-primary-100: 233 241 238;
+        --color-primary-200: 198 223 217;
+        --color-primary-300: 164 206 197;
+        --color-primary-400: 132 184 174;
+        --color-primary-500: 101 162 151;
+        --color-primary-600: 83 146 147;
+        --color-primary-700: 65 130 143;
+        --color-primary-800: 50 93 103;
+        --color-primary-900: 35 57 64;
+      }
+
+      /* Dark/Light mode variables */
+      :root {
+          --background: 248 250 252; /* slate-50 */
+          --foreground: 15 23 42;    /* slate-900 */
+          --card: 255 255 255;       /* white */
+          --card-foreground: 15 23 42;
+          --popover: 255 255 255;
+          --popover-foreground: 15 23 42;
+          --muted: 241 245 249;      /* slate-100 */
+          --muted-foreground: 100 116 139; /* slate-500 */
+          --accent: 241 245 249;
+          --accent-foreground: 15 23 42;
+          --border: 226 232 240;      /* slate-200 */
+          --input: 226 232 240;
+          --ring: 101 162 151;         /* new primary-500 */
+      }
+
+      .dark {
+          --background: 15 23 42;     /* slate-900 */
+          --foreground: 248 250 252;   /* slate-50 */
+          --card: 30 41 59;         /* slate-800 */
+          --card-foreground: 248 250 252;
+          --popover: 30 41 59;
+          --popover-foreground: 248 250 252;
+          --muted: 51 65 85;         /* slate-700 */
+          --muted-foreground: 148 163 184; /* slate-400 */
+          --accent: 51 65 85;
+          --accent-foreground: 248 250 252;
+          --border: 51 65 85;
+          --input: 51 65 85;
+          --ring: 132 184 174;         /* new primary-400 */
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              border: 'rgb(var(--border) / <alpha-value>)',
+              input: 'rgb(var(--input) / <alpha-value>)',
+              ring: 'rgb(var(--ring) / <alpha-value>)',
+              background: 'rgb(var(--background) / <alpha-value>)',
+              foreground: 'rgb(var(--foreground) / <alpha-value>)',
+              card: {
+                  DEFAULT: 'rgb(var(--card) / <alpha-value>)',
+                  foreground: 'rgb(var(--card-foreground) / <alpha-value>)'
+              },
+              popover: {
+                  DEFAULT: 'rgb(var(--popover) / <alpha-value>)',
+                  foreground: 'rgb(var(--popover-foreground) / <alpha-value>)'
+              },
+              muted: {
+                  DEFAULT: 'rgb(var(--muted) / <alpha-value>)',
+                  foreground: 'rgb(var(--muted-foreground) / <alpha-value>)'
+              },
+               accent: {
+                DEFAULT: 'rgb(var(--accent) / <alpha-value>)',
+                foreground: 'rgb(var(--accent-foreground) / <alpha-value>)'
+              },
+              primary: {
+                50: 'rgb(var(--color-primary-50) / <alpha-value>)',
+                100: 'rgb(var(--color-primary-100) / <alpha-value>)',
+                200: 'rgb(var(--color-primary-200) / <alpha-value>)',
+                300: 'rgb(var(--color-primary-300) / <alpha-value>)',
+                400: 'rgb(var(--color-primary-400) / <alpha-value>)',
+                500: 'rgb(var(--color-primary-500) / <alpha-value>)',
+                600: 'rgb(var(--color-primary-600) / <alpha-value>)',
+                700: 'rgb(var(--color-primary-700) / <alpha-value>)',
+                800: 'rgb(var(--color-primary-800) / <alpha-value>)',
+                900: 'rgb(var(--color-primary-900) / <alpha-value>)',
+                DEFAULT: 'rgb(var(--color-primary-600) / <alpha-value>)'
+              },
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.5s ease-out forwards',
+              'slide-in': 'slideIn 0.5s ease-out forwards',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              slideIn: {
+                '0%': { transform: 'translateX(-100%)' },
+                '100%': { transform: 'translateX(0)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.1",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "@google/genai": "https://esm.run/@google/genai"
+  }
+}
+</script>
+</head>
+  <body class="bg-background text-foreground antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
